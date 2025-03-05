@@ -7,8 +7,11 @@
     <title>Vue test</title>
 </head>
 <body>
-    <div is = "app">
-        {{message}}
+    <div id = "app">
+        <h1>
+            {{message}}
+        </h1>
+        <button @click="clickMe"> Click me </button>
     </div>
         
     <script>
@@ -17,6 +20,12 @@
                 return {
                     message: 'hello from vue',
                 };
+            },
+            methods: {
+                clickMe() {
+                    console.log('Button Clcked');
+                    this.message = 'Updated Message';
+                },
             },
         });
 

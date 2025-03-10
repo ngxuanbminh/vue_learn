@@ -1,4 +1,4 @@
-# vue-learn-crash (https://youtu.be/VeNfHj6MhgA?si=MWY3GSXWQj6j9GAB)
+# vue-learn-crash 
 
 
 ## Getting Started
@@ -38,3 +38,5 @@ npm run lint
 ## Configuration
 
 See [Vite Configuration Reference](https://vite.dev/config/).
+
+Course info: https://youtu.be/VeNfHj6MhgA?si=MWY3GSXWQj6j9GAB

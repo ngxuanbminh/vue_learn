@@ -39,4 +39,5 @@ npm run lint
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
-Course info: https://youtu.be/VeNfHj6MhgA?si=MWY3GSXWQj6j9GAB
+## Course info: 
+https://youtu.be/VeNfHj6MhgA?si=MWY3GSXWQj6j9GAB

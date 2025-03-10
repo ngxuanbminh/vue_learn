@@ -6,21 +6,27 @@ This template should help get you started developing with Vue 3 in Vite.
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Customize configuration
+## Getting Started
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. Install dependencies:
 
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+2. Start the JSON server (required before running the webapp):
 
-```sh
+```bash
+npm run server
+```
+
+3. Run the development server:
+
+```bash
 npm run dev
 ```
+
+## Additional Commands
 
 ### Compile and Minify for Production
 
@@ -33,3 +39,7 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## Configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
